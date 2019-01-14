@@ -7,9 +7,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=PT+Serif');
-    </style>
+    
   </head>
 
   <body>
@@ -31,7 +29,7 @@
       </div>
       <div class="col-5 links">
         <%= link_to 'Contribute', new_quote_path %>
-        <%= link_to 'About', '#' %>
+        <%= link_to 'About', about_path %>
       </div>
     </header>
 
